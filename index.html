@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>To-Do App</title>
+    <link href="public/images/todo.png" rel="icon">
+    <link href="public/styles/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <h1 class="header__title">To-do App</h1>
+            <h2 class="header__subtitle">What do you need to do?</h2>
+        </div>
+    </div>
+
+    <div class="actions">
+        <div class="actions__container">
+            <input id="search-text" class="input" type="text" placeholder="Search todos...">
+            <label class="checkbox"><input id="hide-completed" type="checkbox"> Hide Completed</label>
+        </div>
+    </div>
+    <div class="container">
+        <div id="todos"></div>
+        <form id="new-todo">
+            <input type="text" class="input" placeholder="Write note here..." name="newTodo">
+            <button id="add-todo" class="button">Add Todo</button>
+        </form>
+        <div id="copyrights">
+            <p id="code"> &lt;&gt; </p>
+            <p>This website is developed by</p> <a href="https://www.linkedin.com/in/1heykal" target="_blank"> Osama Heykal </a>
+        </div>
+    </div>
+    <script src="public/scripts/bundle.js"></script>
+</body>
+
+</html>
